@@ -1,0 +1,42 @@
+/* Styles go here */
+body, .navbar {
+  transition: all 0.3s;
+}
+
+.App-logo {
+  margin-bottom: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 0 5px 15px 5px;
+}
+
+body.dark {
+  color: white;
+  background-color: #121212;
+}
+
+.navbar.dark {
+  background-color: #212121 !important;
+}
+
+#light-dark-toggle:hover{
+  cursor: pointer;
+}
+
+.inactive {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+}
